@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE275FC619B7122900E9828C /* MessageDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE275FC519B7122900E9828C /* MessageDetailVC.m */; };
+		CE4CBA8519B835310053BBFA /* innerBK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE4CBA8419B835310053BBFA /* innerBK.jpg */; };
+		CEF6365B1991BFCF004FA0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6365A1991BFCF004FA0BC /* Foundation.framework */; };
+		CEF6365D1991BFD0004FA0BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6365C1991BFD0004FA0BC /* CoreGraphics.framework */; };
+		CEF6365F1991BFD0004FA0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6365E1991BFD0004FA0BC /* UIKit.framework */; };
+		CEF636651991BFD0004FA0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF636631991BFD0004FA0BC /* InfoPlist.strings */; };
+		CEF636671991BFD0004FA0BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF636661991BFD0004FA0BC /* main.m */; };
+		CEF6366B1991BFD0004FA0BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF6366A1991BFD0004FA0BC /* AppDelegate.m */; };
+		CEF6366E1991BFD0004FA0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6366C1991BFD0004FA0BC /* Main.storyboard */; };
+		CEF636731991BFD0004FA0BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF636721991BFD0004FA0BC /* Images.xcassets */; };
+		CEF6367A1991BFD0004FA0BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636791991BFD0004FA0BC /* XCTest.framework */; };
+		CEF6367B1991BFD0004FA0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6365A1991BFCF004FA0BC /* Foundation.framework */; };
+		CEF6367C1991BFD0004FA0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6365E1991BFD0004FA0BC /* UIKit.framework */; };
+		CEF636841991BFD0004FA0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF636821991BFD0004FA0BC /* InfoPlist.strings */; };
+		CEF636861991BFD0004FA0BC /* LBSMuseumGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF636851991BFD0004FA0BC /* LBSMuseumGuideTests.m */; };
+		CEF636901991C001004FA0BC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6368F1991C001004FA0BC /* Parse.framework */; };
+		CEF636921991C064004FA0BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636911991C064004FA0BC /* AudioToolbox.framework */; };
+		CEF636941991C07A004FA0BC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636931991C07A004FA0BC /* CFNetwork.framework */; };
+		CEF636961991C089004FA0BC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636951991C089004FA0BC /* libz.dylib */; };
+		CEF636981991C093004FA0BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636971991C093004FA0BC /* MobileCoreServices.framework */; };
+		CEF6369A1991C09F004FA0BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636991991C09F004FA0BC /* QuartzCore.framework */; };
+		CEF6369C1991C0A5004FA0BC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6369B1991C0A5004FA0BC /* Security.framework */; };
+		CEF6369E1991C0AB004FA0BC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6369D1991C0AB004FA0BC /* StoreKit.framework */; };
+		CEF636A01991C0B8004FA0BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF6369F1991C0B8004FA0BC /* SystemConfiguration.framework */; };
+		CEF636A21991C104004FA0BC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636A11991C104004FA0BC /* CoreBluetooth.framework */; };
+		CEF636A41991C10D004FA0BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF636A31991C10D004FA0BC /* CoreLocation.framework */; };
+		CEF636A71991C157004FA0BC /* JourneyRecordTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF636A61991C157004FA0BC /* JourneyRecordTVC.m */; };
+		CEF636AB1991EE87004FA0BC /* Cenacolo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636AA1991EE87004FA0BC /* Cenacolo.jpeg */; };
+		CEF636AF1991EFF9004FA0BC /* Gioconda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636AE1991EFF9004FA0BC /* Gioconda.jpeg */; };
+		CEF636B11991F091004FA0BC /* Vitruviano.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636B01991F091004FA0BC /* Vitruviano.jpeg */; };
+		CEF636B31991F0FD004FA0BC /* Ginevra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636B21991F0FD004FA0BC /* Ginevra.jpeg */; };
+		CEF636B51991F145004FA0BC /* Adorazione.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636B41991F145004FA0BC /* Adorazione.jpeg */; };
+		CEF636B71991F194004FA0BC /* Madonna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636B61991F194004FA0BC /* Madonna.jpeg */; };
+		CEF636B91991F202004FA0BC /* belle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636B81991F202004FA0BC /* belle.jpeg */; };
+		CEF636BD1991F5FA004FA0BC /* louvre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF636BC1991F5FA004FA0BC /* louvre.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF6367D1991BFD0004FA0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF6364F1991BFCF004FA0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF636561991BFCF004FA0BC;
+			remoteInfo = LBSMuseumGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE275FC419B7122900E9828C /* MessageDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailVC.h; sourceTree = "<group>"; };
+		CE275FC519B7122900E9828C /* MessageDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailVC.m; sourceTree = "<group>"; };
+		CE4CBA8419B835310053BBFA /* innerBK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = innerBK.jpg; sourceTree = "<group>"; };
+		CEF636571991BFCF004FA0BC /* LBSMuseumGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBSMuseumGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF6365A1991BFCF004FA0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEF6365C1991BFD0004FA0BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEF6365E1991BFD0004FA0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEF636621991BFD0004FA0BC /* LBSMuseumGuide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBSMuseumGuide-Info.plist"; sourceTree = "<group>"; };
+		CEF636641991BFD0004FA0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF636661991BFD0004FA0BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF636681991BFD0004FA0BC /* LBSMuseumGuide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBSMuseumGuide-Prefix.pch"; sourceTree = "<group>"; };
+		CEF636691991BFD0004FA0BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF6366A1991BFD0004FA0BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF6366D1991BFD0004FA0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF636721991BFD0004FA0BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEF636781991BFD0004FA0BC /* LBSMuseumGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBSMuseumGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF636791991BFD0004FA0BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEF636811991BFD0004FA0BC /* LBSMuseumGuideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBSMuseumGuideTests-Info.plist"; sourceTree = "<group>"; };
+		CEF636831991BFD0004FA0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF636851991BFD0004FA0BC /* LBSMuseumGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSMuseumGuideTests.m; sourceTree = "<group>"; };
+		CEF6368F1991C001004FA0BC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CEF636911991C064004FA0BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEF636931991C07A004FA0BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CEF636951991C089004FA0BC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CEF636971991C093004FA0BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CEF636991991C09F004FA0BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEF6369B1991C0A5004FA0BC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEF6369D1991C0AB004FA0BC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CEF6369F1991C0B8004FA0BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEF636A11991C104004FA0BC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CEF636A31991C10D004FA0BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEF636A51991C157004FA0BC /* JourneyRecordTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JourneyRecordTVC.h; path = ../JourneyRecordTVC.h; sourceTree = "<group>"; };
+		CEF636A61991C157004FA0BC /* JourneyRecordTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JourneyRecordTVC.m; path = ../JourneyRecordTVC.m; sourceTree = "<group>"; };
+		CEF636AA1991EE87004FA0BC /* Cenacolo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cenacolo.jpeg; sourceTree = "<group>"; };
+		CEF636AE1991EFF9004FA0BC /* Gioconda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gioconda.jpeg; sourceTree = "<group>"; };
+		CEF636B01991F091004FA0BC /* Vitruviano.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vitruviano.jpeg; sourceTree = "<group>"; };
+		CEF636B21991F0FD004FA0BC /* Ginevra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ginevra.jpeg; sourceTree = "<group>"; };
+		CEF636B41991F145004FA0BC /* Adorazione.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adorazione.jpeg; sourceTree = "<group>"; };
+		CEF636B61991F194004FA0BC /* Madonna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Madonna.jpeg; sourceTree = "<group>"; };
+		CEF636B81991F202004FA0BC /* belle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belle.jpeg; sourceTree = "<group>"; };
+		CEF636BC1991F5FA004FA0BC /* louvre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = louvre.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF636541991BFCF004FA0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF636A41991C10D004FA0BC /* CoreLocation.framework in Frameworks */,
+				CEF636A21991C104004FA0BC /* CoreBluetooth.framework in Frameworks */,
+				CEF636A01991C0B8004FA0BC /* SystemConfiguration.framework in Frameworks */,
+				CEF6369E1991C0AB004FA0BC /* StoreKit.framework in Frameworks */,
+				CEF6369C1991C0A5004FA0BC /* Security.framework in Frameworks */,
+				CEF6369A1991C09F004FA0BC /* QuartzCore.framework in Frameworks */,
+				CEF636981991C093004FA0BC /* MobileCoreServices.framework in Frameworks */,
+				CEF636961991C089004FA0BC /* libz.dylib in Frameworks */,
+				CEF636941991C07A004FA0BC /* CFNetwork.framework in Frameworks */,
+				CEF636921991C064004FA0BC /* AudioToolbox.framework in Frameworks */,
+				CEF6365D1991BFD0004FA0BC /* CoreGraphics.framework in Frameworks */,
+				CEF6365F1991BFD0004FA0BC /* UIKit.framework in Frameworks */,
+				CEF636901991C001004FA0BC /* Parse.framework in Frameworks */,
+				CEF6365B1991BFCF004FA0BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF636751991BFD0004FA0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF6367A1991BFD0004FA0BC /* XCTest.framework in Frameworks */,
+				CEF6367C1991BFD0004FA0BC /* UIKit.framework in Frameworks */,
+				CEF6367B1991BFD0004FA0BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF6364E1991BFCF004FA0BC = {
+			isa = PBXGroup;
+			children = (
+				CEF636601991BFD0004FA0BC /* LBSMuseumGuide */,
+				CEF6367F1991BFD0004FA0BC /* LBSMuseumGuideTests */,
+				CEF636591991BFCF004FA0BC /* Frameworks */,
+				CEF636581991BFCF004FA0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF636581991BFCF004FA0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF636571991BFCF004FA0BC /* LBSMuseumGuide.app */,
+				CEF636781991BFD0004FA0BC /* LBSMuseumGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF636591991BFCF004FA0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF636A31991C10D004FA0BC /* CoreLocation.framework */,
+				CEF636A11991C104004FA0BC /* CoreBluetooth.framework */,
+				CEF6369F1991C0B8004FA0BC /* SystemConfiguration.framework */,
+				CEF6369D1991C0AB004FA0BC /* StoreKit.framework */,
+				CEF6369B1991C0A5004FA0BC /* Security.framework */,
+				CEF636991991C09F004FA0BC /* QuartzCore.framework */,
+				CEF636971991C093004FA0BC /* MobileCoreServices.framework */,
+				CEF636951991C089004FA0BC /* libz.dylib */,
+				CEF636931991C07A004FA0BC /* CFNetwork.framework */,
+				CEF636911991C064004FA0BC /* AudioToolbox.framework */,
+				CEF6368F1991C001004FA0BC /* Parse.framework */,
+				CEF6365A1991BFCF004FA0BC /* Foundation.framework */,
+				CEF6365C1991BFD0004FA0BC /* CoreGraphics.framework */,
+				CEF6365E1991BFD0004FA0BC /* UIKit.framework */,
+				CEF636791991BFD0004FA0BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF636601991BFD0004FA0BC /* LBSMuseumGuide */ = {
+			isa = PBXGroup;
+			children = (
+				CEF636BB1991F22E004FA0BC /* VinciDraw */,
+				CEF636691991BFD0004FA0BC /* AppDelegate.h */,
+				CEF6366A1991BFD0004FA0BC /* AppDelegate.m */,
+				CEF6366C1991BFD0004FA0BC /* Main.storyboard */,
+				CE275FC419B7122900E9828C /* MessageDetailVC.h */,
+				CE275FC519B7122900E9828C /* MessageDetailVC.m */,
+				CEF636A51991C157004FA0BC /* JourneyRecordTVC.h */,
+				CEF636A61991C157004FA0BC /* JourneyRecordTVC.m */,
+				CEF636721991BFD0004FA0BC /* Images.xcassets */,
+				CEF636611991BFD0004FA0BC /* Supporting Files */,
+			);
+			path = LBSMuseumGuide;
+			sourceTree = "<group>";
+		};
+		CEF636611991BFD0004FA0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CBA8419B835310053BBFA /* innerBK.jpg */,
+				CEF636621991BFD0004FA0BC /* LBSMuseumGuide-Info.plist */,
+				CEF636631991BFD0004FA0BC /* InfoPlist.strings */,
+				CEF636661991BFD0004FA0BC /* main.m */,
+				CEF636681991BFD0004FA0BC /* LBSMuseumGuide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF6367F1991BFD0004FA0BC /* LBSMuseumGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF636851991BFD0004FA0BC /* LBSMuseumGuideTests.m */,
+				CEF636801991BFD0004FA0BC /* Supporting Files */,
+			);
+			path = LBSMuseumGuideTests;
+			sourceTree = "<group>";
+		};
+		CEF636801991BFD0004FA0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF636811991BFD0004FA0BC /* LBSMuseumGuideTests-Info.plist */,
+				CEF636821991BFD0004FA0BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF636BB1991F22E004FA0BC /* VinciDraw */ = {
+			isa = PBXGroup;
+			children = (
+				CEF636BC1991F5FA004FA0BC /* louvre.jpg */,
+				CEF636B81991F202004FA0BC /* belle.jpeg */,
+				CEF636B61991F194004FA0BC /* Madonna.jpeg */,
+				CEF636B41991F145004FA0BC /* Adorazione.jpeg */,
+				CEF636B21991F0FD004FA0BC /* Ginevra.jpeg */,
+				CEF636B01991F091004FA0BC /* Vitruviano.jpeg */,
+				CEF636AE1991EFF9004FA0BC /* Gioconda.jpeg */,
+				CEF636AA1991EE87004FA0BC /* Cenacolo.jpeg */,
+			);
+			name = VinciDraw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF636561991BFCF004FA0BC /* LBSMuseumGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF636891991BFD0004FA0BC /* Build configuration list for PBXNativeTarget "LBSMuseumGuide" */;
+			buildPhases = (
+				CEF636531991BFCF004FA0BC /* Sources */,
+				CEF636541991BFCF004FA0BC /* Frameworks */,
+				CEF636551991BFCF004FA0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBSMuseumGuide;
+			productName = LBSMuseumGuide;
+			productReference = CEF636571991BFCF004FA0BC /* LBSMuseumGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF636771991BFD0004FA0BC /* LBSMuseumGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF6368C1991BFD0004FA0BC /* Build configuration list for PBXNativeTarget "LBSMuseumGuideTests" */;
+			buildPhases = (
+				CEF636741991BFD0004FA0BC /* Sources */,
+				CEF636751991BFD0004FA0BC /* Frameworks */,
+				CEF636761991BFD0004FA0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF6367E1991BFD0004FA0BC /* PBXTargetDependency */,
+			);
+			name = LBSMuseumGuideTests;
+			productName = LBSMuseumGuideTests;
+			productReference = CEF636781991BFD0004FA0BC /* LBSMuseumGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF6364F1991BFCF004FA0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = udndigital;
+				TargetAttributes = {
+					CEF636771991BFD0004FA0BC = {
+						TestTargetID = CEF636561991BFCF004FA0BC;
+					};
+				};
+			};
+			buildConfigurationList = CEF636521991BFCF004FA0BC /* Build configuration list for PBXProject "LBSMuseumGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF6364E1991BFCF004FA0BC;
+			productRefGroup = CEF636581991BFCF004FA0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF636561991BFCF004FA0BC /* LBSMuseumGuide */,
+				CEF636771991BFD0004FA0BC /* LBSMuseumGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF636551991BFCF004FA0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF636B31991F0FD004FA0BC /* Ginevra.jpeg in Resources */,
+				CEF636AF1991EFF9004FA0BC /* Gioconda.jpeg in Resources */,
+				CEF636731991BFD0004FA0BC /* Images.xcassets in Resources */,
+				CEF636B11991F091004FA0BC /* Vitruviano.jpeg in Resources */,
+				CEF636AB1991EE87004FA0BC /* Cenacolo.jpeg in Resources */,
+				CEF636651991BFD0004FA0BC /* InfoPlist.strings in Resources */,
+				CEF6366E1991BFD0004FA0BC /* Main.storyboard in Resources */,
+				CEF636BD1991F5FA004FA0BC /* louvre.jpg in Resources */,
+				CEF636B51991F145004FA0BC /* Adorazione.jpeg in Resources */,
+				CEF636B91991F202004FA0BC /* belle.jpeg in Resources */,
+				CEF636B71991F194004FA0BC /* Madonna.jpeg in Resources */,
+				CE4CBA8519B835310053BBFA /* innerBK.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF636761991BFD0004FA0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF636841991BFD0004FA0BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF636531991BFCF004FA0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF6366B1991BFD0004FA0BC /* AppDelegate.m in Sources */,
+				CE275FC619B7122900E9828C /* MessageDetailVC.m in Sources */,
+				CEF636A71991C157004FA0BC /* JourneyRecordTVC.m in Sources */,
+				CEF636671991BFD0004FA0BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF636741991BFD0004FA0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF636861991BFD0004FA0BC /* LBSMuseumGuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF6367E1991BFD0004FA0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF636561991BFCF004FA0BC /* LBSMuseumGuide */;
+			targetProxy = CEF6367D1991BFD0004FA0BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF636631991BFD0004FA0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF636641991BFD0004FA0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEF6366C1991BFD0004FA0BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF6366D1991BFD0004FA0BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF636821991BFD0004FA0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF636831991BFD0004FA0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF636871991BFD0004FA0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF636881991BFD0004FA0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF6368A1991BFD0004FA0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBSMuseumGuide/LBSMuseumGuide-Prefix.pch";
+				INFOPLIST_FILE = "LBSMuseumGuide/LBSMuseumGuide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEF6368B1991BFD0004FA0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBSMuseumGuide/LBSMuseumGuide-Prefix.pch";
+				INFOPLIST_FILE = "LBSMuseumGuide/LBSMuseumGuide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEF6368D1991BFD0004FA0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LBSMuseumGuide.app/LBSMuseumGuide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBSMuseumGuide/LBSMuseumGuide-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LBSMuseumGuideTests/LBSMuseumGuideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEF6368E1991BFD0004FA0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LBSMuseumGuide.app/LBSMuseumGuide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBSMuseumGuide/LBSMuseumGuide-Prefix.pch";
+				INFOPLIST_FILE = "LBSMuseumGuideTests/LBSMuseumGuideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF636521991BFCF004FA0BC /* Build configuration list for PBXProject "LBSMuseumGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF636871991BFD0004FA0BC /* Debug */,
+				CEF636881991BFD0004FA0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF636891991BFD0004FA0BC /* Build configuration list for PBXNativeTarget "LBSMuseumGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF6368A1991BFD0004FA0BC /* Debug */,
+				CEF6368B1991BFD0004FA0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF6368C1991BFD0004FA0BC /* Build configuration list for PBXNativeTarget "LBSMuseumGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF6368D1991BFD0004FA0BC /* Debug */,
+				CEF6368E1991BFD0004FA0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF6364F1991BFCF004FA0BC /* Project object */;
+}
